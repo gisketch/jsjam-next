@@ -27,7 +27,7 @@ export default function Hero() {
                 <span className="font-euro tracking-tight">Solutions</span>
               </BoxReveal>
             </div>
-            <div className="flex flex-row gap-4 mt-12">
+            <div className="flex flex-row gap-4 mt-8">
               <Button>About Us</Button>
               <Button variant="outline">Contact Us</Button>
             </div>

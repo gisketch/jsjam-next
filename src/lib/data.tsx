@@ -14,6 +14,8 @@
 // import Woodridge from "@/assets/clients/woodridge.webp";
 // import Youngliving from "@/assets/clients/youngliving.webp";
 
+import { Building2, Code2, Cpu, Factory, Network, Shield } from "lucide-react";
+
 // export const clientsData = [
 //     [
 //         Lasterrazas,
@@ -65,4 +67,39 @@ export const projectsData: ProjectDataInterface[] = [
 export const teamInfo = {
     header: "Our Team",
     description: `Our team is led by Engr. Joseph S. Jamayo, and includes experts in project management, IT & Network Systems, and more.`,
+};
+
+export const servicesInfo = {
+    services: [
+        {
+            name: "Construction Works",
+            icon: <Building2 />,
+            description: "Comprehensive construction services including general construction, structural work, architectural design, interior and exterior finishes, with specialized installations for treatment plants, elevators, and transmission lines.",
+        },
+        {
+            name: "MEPF",
+            icon: <Factory />,
+            description: "Complete mechanical, electrical, plumbing, and fire protection system solutions for residential and commercial buildings, ensuring safety and efficiency.",
+        },
+        {
+            name: "Network Solutions",
+            icon: <Network />,
+            description: "Advanced telecommunication and networking infrastructure including wireless networks, data centers, and underground cabling systems for seamless connectivity.",
+        },
+        {
+            name: "Security & AI Systems",
+            icon: <Shield />,
+            description: "Cutting-edge security solutions featuring surveillance, access control, and integrated command center systems powered by AI technology.",
+        },
+        {
+            name: "Automation Systems",
+            icon: <Cpu />,
+            description: "Comprehensive automation solutions for industrial, commercial, and residential applications, including smart building management and environmental monitoring systems.",
+        },
+        {
+            name: "Software Solutions",
+            icon: <Code2 />,
+            description: "Enterprise software systems for business operations, including finance, HR, CRM, and management solutions for manufacturing and warehouse operations.",
+        },
+    ],
 };
